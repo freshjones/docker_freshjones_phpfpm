@@ -40,4 +40,4 @@ mv composer.phar /usr/local/bin/composer
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-CMD ["/usr/sbin/php5-fpm" "-c" "/etc/php5/fpm"]
+CMD ["/usr/sbin/php5-fpm", "-c", "/etc/php5/fpm"]
